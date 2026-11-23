@@ -17,7 +17,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/tours" element={<Tour />} />
+        <Route path="/tour" element={<Tour />} />
         <Route
           path="/register"
           element={user ? <Navigate to="/" /> : <Register />}
